@@ -46,3 +46,6 @@ main {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.divDesc, .divType, .divAmount {
+  display: flex;
