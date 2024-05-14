@@ -49,3 +49,5 @@ main {
 
 .divDesc, .divType, .divAmount {
   display: flex;
+  flex-direction: column;
+}
