@@ -105,3 +105,8 @@ i {
   background: transparent;
   border: none;
 }
+
+.columnType {
+  width: 80px;
+  text-align: center;
+}
