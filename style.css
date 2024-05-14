@@ -100,3 +100,8 @@ i {
   width: 40px;
   text-align: center;
 }
+
+.columnAction > button {
+  background: transparent;
+  border: none;
+}
