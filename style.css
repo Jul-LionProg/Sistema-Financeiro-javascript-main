@@ -95,3 +95,8 @@ i {
 .bxs-chevron-down-circle {
   color: #D83121;
 }
+
+.columnAction {
+  width: 40px;
+  text-align: center;
+}
