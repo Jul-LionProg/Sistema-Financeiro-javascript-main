@@ -37,3 +37,6 @@ main {
   padding: 10px;
   width: 150px;
 }
+
+.newItem {
+  display: flex;
