@@ -5,3 +5,6 @@
   font-family: 'poppins', sans-serif;
   outline: none;
 }
+
+body {
+  height: 100vh;
