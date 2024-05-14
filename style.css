@@ -55,3 +55,6 @@ main {
 .newItem > button {
   background-color: #2C73D2;
   color: white;
+  border: none;
+  padding: 0 15px;
+  border-radius: 5px;
