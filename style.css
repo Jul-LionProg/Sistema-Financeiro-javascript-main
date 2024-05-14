@@ -74,3 +74,6 @@ input, select {
 
 table {
   width: 98%;
+  padding: 20px 0;
+  border-radius: 5px;
+}
