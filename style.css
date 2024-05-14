@@ -22,3 +22,5 @@ main {
 
 .resume {
   display: flex;
+  padding: 10px 0;
+  gap: 40px;
