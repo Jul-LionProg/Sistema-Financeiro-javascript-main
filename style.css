@@ -61,3 +61,7 @@ main {
   cursor: pointer;
   height: 34px;
 }
+
+input, select {
+  padding: 5px;
+}
