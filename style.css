@@ -71,3 +71,6 @@ input, select {
   display: flex;
   justify-content: center;
 }
+
+table {
+  width: 98%;
