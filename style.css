@@ -58,3 +58,6 @@ main {
   border: none;
   padding: 0 15px;
   border-radius: 5px;
+  cursor: pointer;
+  height: 34px;
+}
