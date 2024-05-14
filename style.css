@@ -24,3 +24,7 @@ main {
   display: flex;
   padding: 10px 0;
   gap: 40px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
