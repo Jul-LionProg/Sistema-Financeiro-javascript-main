@@ -37,3 +37,16 @@ function deleteItem(index) {
 
 function insertItem(item, index) {
   let tr = document.createElement("tr");
+
+  tr.innerHTML = `
+    <td>${item.desc}</td>
+    <td>R$ ${item.amount}</td>
+    <td class="columnType">${
+      item.type === "Entrada"
+        ? '<i class="bx bxs-chevron-up-circle"></i>'
+        : '<i class="bx bxs-chevron-down-circle"></i>'
+    }</td>
+    <td class="columnAction">
+      <button onclick="deleteItem(${index})"><i class='bx bx-trash'></i></button>
+    </td>
+  `;
