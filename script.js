@@ -4,4 +4,4 @@ const amount = document.querySelector("#amount");
 const type = document.querySelector("#type");
 const btnNew = document.querySelector("#btnNew");
 
-const incomes =
+const incomes = document.querySelector(".incomes");
