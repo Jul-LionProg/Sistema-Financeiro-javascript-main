@@ -34,3 +34,6 @@ function deleteItem(index) {
   setItensBD();
   loadItens();
 }
+
+function insertItem(item, index) {
+  let tr = document.createElement("tr");
