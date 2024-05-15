@@ -50,3 +50,6 @@ function insertItem(item, index) {
       <button onclick="deleteItem(${index})"><i class='bx bx-trash'></i></button>
     </td>
   `;
+
+  tbody.appendChild(tr);
+}
