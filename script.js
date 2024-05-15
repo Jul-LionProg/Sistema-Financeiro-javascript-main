@@ -20,3 +20,11 @@ btnNew.onclick = () => {
     amount: Math.abs(amount.value).toFixed(2),
     type: type.value,
   });
+
+  setItensBD();
+
+  loadItens();
+
+  descItem.value = "";
+  amount.value = "";
+};
