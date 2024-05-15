@@ -11,3 +11,6 @@ const total = document.querySelector(".total");
 let items;
 
 btnNew.onclick = () => {
+  if (descItem.value === "" || amount.value === "" || type.value === "") {
+    return alert("Preencha todos os campos!");
+  }
