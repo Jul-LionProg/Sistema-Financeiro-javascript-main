@@ -28,3 +28,9 @@ btnNew.onclick = () => {
   descItem.value = "";
   amount.value = "";
 };
+
+function deleteItem(index) {
+  items.splice(index, 1);
+  setItensBD();
+  loadItens();
+}
