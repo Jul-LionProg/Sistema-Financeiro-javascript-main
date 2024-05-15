@@ -60,3 +60,6 @@ function loadItens() {
   items.forEach((item, index) => {
     insertItem(item, index);
   });
+
+  getTotals();
+}
