@@ -53,3 +53,10 @@ function insertItem(item, index) {
 
   tbody.appendChild(tr);
 }
+
+function loadItens() {
+  items = getItensBD();
+  tbody.innerHTML = "";
+  items.forEach((item, index) => {
+    insertItem(item, index);
+  });
