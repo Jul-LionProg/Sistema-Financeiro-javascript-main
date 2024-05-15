@@ -7,3 +7,7 @@ const btnNew = document.querySelector("#btnNew");
 const incomes = document.querySelector(".incomes");
 const expenses = document.querySelector(".expenses");
 const total = document.querySelector(".total");
+
+let items;
+
+btnNew.onclick = () => {
