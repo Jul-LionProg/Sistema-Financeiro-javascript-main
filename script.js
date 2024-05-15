@@ -1,2 +1,2 @@
 const tbody = document.querySelector("tbody");
-const descItem =
+const descItem = document.querySelector("#desc");
