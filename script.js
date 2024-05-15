@@ -68,3 +68,7 @@ function getTotals() {
   const amountIncomes = items
     .filter((item) => item.type === "Entrada")
     .map((transaction) => Number(transaction.amount));
+
+  const amountExpenses = items
+    .filter((item) => item.type === "Saída")
+    .map((transaction) => Number(transaction.amount));
