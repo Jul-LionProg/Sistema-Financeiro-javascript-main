@@ -76,3 +76,6 @@ function getTotals() {
   const totalIncomes = amountIncomes
     .reduce((acc, cur) => acc + cur, 0)
     .toFixed(2);
+  const totalExpenses = Math.abs(
+    amountExpenses.reduce((acc, cur) => acc + cur, 0)
+  ).toFixed(2);
