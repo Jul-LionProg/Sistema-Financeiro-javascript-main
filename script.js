@@ -79,3 +79,10 @@ function getTotals() {
   const totalExpenses = Math.abs(
     amountExpenses.reduce((acc, cur) => acc + cur, 0)
   ).toFixed(2);
+
+  const totalItems = (totalIncomes - totalExpenses).toFixed(2);
+
+  incomes.innerHTML = totalIncomes;
+  expenses.innerHTML = totalExpenses;
+  total.innerHTML = totalItems;
+}
